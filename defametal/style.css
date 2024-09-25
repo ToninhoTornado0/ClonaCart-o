@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(156, 240, 226);
+}
+.menu {
+    background-color: black;
+    padding: 10px;
+}
+
+.menu_list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu_item {
+    margin-right: 20px;
+
+}
+
+.menu_item--active .menu_link {
+    font-weight: bold;
+
+}
+
+.menu_link{
+    color: aliceblue;
+    text-decoration: none;
+}
